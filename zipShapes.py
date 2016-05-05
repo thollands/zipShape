@@ -27,11 +27,6 @@
 # ===========================================================================
 #
 
-
-# define folder with shapefiles
-# drive letter must be lower case
-folder = r"c:\scripts\zipShape\test_dir"
-
 def zipShapeFiles(path):
     """
     main function
@@ -100,8 +95,5 @@ def zipShapeFiles(path):
         # close zip
         
         zipit.close()
-
-# run function
-zipShapeFiles(folder)
 
 print('end')
