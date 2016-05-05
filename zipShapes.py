@@ -33,11 +33,10 @@
 folder = r"c:\scripts\zipShape\test_dir"
 
 def zipShapeFiles(path):
-
     """
-
-    :param path:
-    :return:
+    main function
+    :param path: path of the folder with shapefiles to be zipped
+    :return: none
     """
 
     # Import system modules
