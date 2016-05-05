@@ -89,7 +89,7 @@ def zipShapeFiles(path):
         for file in directory:
 
             # define full file name (incl path) and split label name
-            fileName = path + "\\" + os.path.splitext(file)[-2].lower()
+            fileName = (path + "\\" + os.path.splitext(file)[-2]).lower()
             labelName = os.path.splitext(label)[-2].lower()
 
             # check is file matches zip name (ie if it belongs there), if it does add it to the zip. OR statement accounts for .shp.xml files
@@ -98,6 +98,7 @@ def zipShapeFiles(path):
                 print(file + " > " + label + ".zip")
 
         # close zip
+        
         zipit.close()
 
 # run function
