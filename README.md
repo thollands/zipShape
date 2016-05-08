@@ -3,7 +3,7 @@ python script to zip shapefiles in a directory
 
 ## To use:
 - Import as a module
-- use zipShapes(path) function and point it to the folder containing the shapefile components
+- use zipShapes(path) function and point it to the folder containing the shapefile components \n
 eg:
 ```
 import zipShapes
